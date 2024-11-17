@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>تطبيقات الذكاء الاصطناعي</title>
+       <style>
+              body {
+                     font-family: Arial, sans-serif;
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     background-color: #f3f4f6;
+                     color: #333;
+                     text-align: center;
+                     direction: rtl;
+                     margin: 0;
+                     padding: 20px;
+              }
+
+              .container {
+                     display: grid;
+                     grid-template-areas:
+                            "icon1 center-icon icon2"
+                            "icon3 center-icon icon4"
+                            "icon5 icon5 icon5";
+                     gap: 20px;
+                     max-width: 900px;
+                     margin: 50px auto;
+                     padding: 20px;
+                     background: #ffffff;
+                     border-radius: 15px;
+                     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+              }
+
+              .icon {
+                     display: flex;
+                     flex-direction: column;
+                     align-items: center;
+                     padding: 15px;
+                     border-radius: 10px;
+                     background: #e0f7fa;
+                     transition: transform 0.2s;
+              }
+
+              .icon:hover {
+                     transform: scale(1.1);
+              }
+
+              .icon img {
+                     width: 50px;
+                     height: 50px;
+                     margin-bottom: 10px;
+              }
+
+              .icon h3 {
+                     font-size: 1.1em;
+                     margin: 10px 0 5px;
+              }
+
+              .icon p {
+                     font-size: 0.9em;
+                     margin: 5px 0;
+              }
+
+              .pros {
+                     font-size: 0.85em;
+                     color: #388e3c;
+                     margin-top: 5px;
+                     font-weight: bold;
+              }
+
+              .center-icon {
+                     grid-area: center-icon;
+                     display: flex;
+                     flex-direction: column;
+                     align-items: center;
+                     padding: 20px;
+                     background: #ffd54f;
+                     border-radius: 50%;
+                     width: 120px;
+                     height: 120px;
+                     justify-self: center;
+                     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+              }
+
+              .center-icon img {
+                     width: 60px;
+                     height: 60px;
+              }
+
+              .center-icon h2 {
+                     margin: 5px 0 0;
+                     font-size: 1.2em;
+              }
+
+              /* تحديد المساحة لكل أيقونة */
+              .icon1 {
+                     grid-area: icon1;
+              }
+
+              .icon2 {
+                     grid-area: icon2;
+              }
+
+              .icon3 {
+                     grid-area: icon3;
+              }
+
+              .icon4 {
+                     grid-area: icon4;
+              }
+
+              .icon5 {
+                     grid-area: icon5;
+              }
+       </style>
+</head>
+
+<body>
+       <div class="container">
+              <!-- Central AI icon -->
+              <div class="center-icon">
+                     <img src="https://img.icons8.com/ios-filled/50/000000/artificial-intelligence.png" alt="AI Icon">
+                     <h2>الذكاء الاصطناعي</h2>
+              </div>
+
+              <!-- Application Icons with Pros -->
+              <div class="icon icon1">
+                     <img src="https://img.icons8.com/ios/50/4a90e2/health.png" alt="Healthcare Icon">
+                     <h3>الرعاية الصحية</h3>
+                     <p>استخدام الذكاء الاصطناعي في تشخيص الأمراض وتحليل صور الأشعة.</p>
+                     <p class="pros">ميزة: يساعد في اكتشاف الأمراض بسرعة ودقة أعلى.</p>
+              </div>
+
+              <div class="icon icon2">
+                     <img src="https://img.icons8.com/ios/50/4a90e2/car.png" alt="Autonomous Vehicles Icon">
+                     <h3>المركبات الذاتية</h3>
+                     <p>تكنولوجيا القيادة الذاتية في السيارات مثل تسلا.</p>
+                     <p class="pros">ميزة: يقلل من حوادث المرور الناتجة عن الأخطاء البشرية.</p>
+              </div>
+
+              <div class="icon icon3">
+                     <img src="https://img.icons8.com/ios/50/4a90e2/privacy.png" alt="Cybersecurity Icon">
+                     <h3>الأمن السيبراني</h3>
+                     <p>حماية البيانات والكشف عن التهديدات الإلكترونية.</p>
+                     <p class="pros">ميزة: تعزيز حماية البيانات والخصوصية من التهديدات.</p>
+              </div>
+
+              <div class="icon icon4">
+                     <img src="https://img.icons8.com/ios/50/4a90e2/stocks.png" alt="Financial Forecasting Icon">
+                     <h3>التوقعات المالية</h3>
+                     <p>التنبؤ بحركة الأسواق المالية وتحليل الاستثمارات.</p>
+                     <p class="pros">ميزة: يساعد في اتخاذ قرارات استثمارية أفضل.</p>
+              </div>
+
+              <div class="icon icon5">
+                     <img src="https://img.icons8.com/ios/50/4a90e2/shopping-cart.png"
+                            alt="Personal Recommendations Icon">
+                     <h3>توصيات شخصية</h3>
+                     <p>اقتراح منتجات أو محتوى بناءً على تفضيلات المستخدم.</p>
+                     <p class="pros">ميزة: يوفر تجربة مخصصة للمستخدم.</p>
+              </div>
+       </div>
+</body>
+
+</html>
